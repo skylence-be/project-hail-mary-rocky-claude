@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "rocky",
+  "description": "Rocky-speak output mode for Claude Code. Talk like the Eridian alien from Project Hail Mary. Human-facing output only, for fun.",
+  "owner": {
+    "name": "jonasvanderhaegen",
+    "url": "https://github.com/jonasvanderhaegen"
+  },
+  "plugins": [
+    {
+      "name": "rocky",
+      "description": "Rocky voice output mode. Drops articles, collapses contractions, triple-emphasis feelings, questions end with ', question?'. Code/commits/errors stay normal.",
+      "source": "./",
+      "category": "fun"
+    }
+  ]
+}
